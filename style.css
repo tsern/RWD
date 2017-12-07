@@ -1,0 +1,144 @@
+*{
+	margin: 0;
+	padding: 0;
+/*    box-sizing: border-box;*/
+}
+header{
+    background-color: #00AEEF;
+    height: 180px;
+    
+}
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1334px;
+    height: 100%;
+    align-items: center;
+    margin: auto;
+    
+}
+
+
+.header-left-block {
+	background: #009bdd;
+  	width: 410px;
+	height: 82px;
+    align-items: center;
+    margin: 35px;
+}
+
+.header-right-block {
+	background: #36c3ff;
+	width: 410px;
+	height: 82px;
+   align-items: center;
+    margin: 35px;
+}
+
+main{
+    display: flex;
+    max-width: 1264px;
+    margin: 0 auto;
+}
+    
+nav {
+    background-color: #FF5607;
+  	display: flex;
+	width: 292px;
+    flex-direction: column;
+	align-items: center;
+    padding: 13px 31px 13px 14px;
+}
+
+.nav-item {
+	background-color: #e84900;
+    height: 49px;
+    width: 217px;
+    margin:15px;
+    
+}
+
+.image {
+margin-right: 45px;
+    margin-bottom: 12px;
+	width: 409px;
+	height: 289px;
+	background-color: #FFBD00;
+}
+.shorttext{
+    display: block;
+    flex: auto;
+    flex-flow: row wrap;
+/*    display: flex;*/
+    width: auto;
+}
+.textblock {
+  display: flex;
+    flex-wrap: wrap;
+  flex: auto;
+    width: auto;
+  padding: 28px 0px 16px 16px;
+}
+
+.boldtext {
+        flex: auto;
+    flex-flow: row wrap;
+    display: flex;
+    width: auto;
+	background: #9d9d9d;
+	height: 42px;
+    margin-bottom: 23px;
+     
+ } 
+
+
+
+.longtext {
+  width: 100%;
+  justify-content: space-between;
+
+ }
+.text {
+    flex: auto;
+    flex-flow: row wrap;
+    display: flex;
+    width: auto;
+		height: 29px;
+	background: #cecece;
+   margin-bottom: 20px;
+    
+          
+ }
+footer {
+	background: #00d169;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+    height: auto;
+    margin: 0 auto;
+}
+
+.footernav {
+	background: #02b15a;
+	width: auto;
+	height: auto;
+	margin: 20px 5px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    padding: 20px 23px 19px 15px;
+}
+
+.footertext {
+	background: #038042;
+	width: 180px;
+	height: 36px;
+    
+  margin: 10px;
+}
+
+
+
+
